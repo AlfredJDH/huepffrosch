@@ -1,6 +1,6 @@
 // Cache-first, damit das Spiel nach dem ersten Laden auch offline startet.
 // Bei Änderungen am Spiel die Versionsnummer erhöhen.
-const CACHE = 'huepffrosch-v1';
+const CACHE = 'huepffrosch-v2';
 const FILES = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-180.png', 'icons/icon-192.png', 'icons/icon-512.png'];
 
 self.addEventListener('install', e => {
